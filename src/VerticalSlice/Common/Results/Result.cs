@@ -1,4 +1,4 @@
-﻿namespace VerticalSlice.Shared.Results;
+﻿namespace VerticalSlice.Common.Results;
 
 public class Result
 {

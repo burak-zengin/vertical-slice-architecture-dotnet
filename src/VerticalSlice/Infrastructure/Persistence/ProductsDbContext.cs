@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using VerticalSlice.Entities;
+using VerticalSlice.Features.Products;
 
-namespace VerticalSlice.Database;
+namespace VerticalSlice.Infrastructure.Persistence;
 
 public class ProductsDbContext : DbContext
 {

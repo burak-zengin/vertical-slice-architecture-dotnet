@@ -1,7 +1,7 @@
 using Carter;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
-using VerticalSlice.Database;
+using VerticalSlice.Infrastructure.Persistence;
 
 var assembly = typeof(Program).Assembly;
 

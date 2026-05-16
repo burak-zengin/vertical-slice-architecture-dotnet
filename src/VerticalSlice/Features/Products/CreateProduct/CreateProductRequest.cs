@@ -1,9 +1,7 @@
-﻿namespace VerticalSlice.Entities;
+﻿namespace VerticalSlice.Features.Products.CreateProduct;
 
-public class Product
+public class CreateProductRequest
 {
-    public Guid Id { get; set; }
-
     public string Name { get; set; }
 
     public string Description { get; set; }

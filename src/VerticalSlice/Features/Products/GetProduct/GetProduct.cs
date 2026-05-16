@@ -1,15 +1,11 @@
-﻿using Carter;
+﻿using System.Data.SqlClient;
+using Carter;
 using Dapper;
 using FluentValidation;
-using Mapster;
 using MediatR;
-using Microsoft.EntityFrameworkCore;
-using System.Data.SqlClient;
-using VerticalSlice.Contracts;
-using VerticalSlice.Database;
-using VerticalSlice.Shared.Results;
+using VerticalSlice.Common.Results;
 
-namespace VerticalSlice.Features.Products;
+namespace VerticalSlice.Features.Products.GetProduct;
 
 public static class GetProduct
 {

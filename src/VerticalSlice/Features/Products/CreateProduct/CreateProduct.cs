@@ -2,12 +2,10 @@
 using FluentValidation;
 using Mapster;
 using MediatR;
-using VerticalSlice.Contracts;
-using VerticalSlice.Database;
-using VerticalSlice.Entities;
-using VerticalSlice.Shared.Results;
+using VerticalSlice.Common.Results;
+using VerticalSlice.Infrastructure.Persistence;
 
-namespace VerticalSlice.Features.Products;
+namespace VerticalSlice.Features.Products.CreateProduct;
 
 public static class CreateProduct
 {

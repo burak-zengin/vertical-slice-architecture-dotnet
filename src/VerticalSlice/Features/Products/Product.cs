@@ -1,6 +1,6 @@
-﻿namespace VerticalSlice.Contracts;
+﻿namespace VerticalSlice.Features.Products;
 
-public class GetProductResponse
+public class Product
 {
     public Guid Id { get; set; }
 
